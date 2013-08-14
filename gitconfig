@@ -1,7 +1,6 @@
 # http://githowto.com/
 [core]
         editor = joe
-        excludesfile = gitignore
 [alias]
         co = checkout
         ci = commit
