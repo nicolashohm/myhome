@@ -1,0 +1,22 @@
+# Sublime meta data #
+######################
+*.sublime*
+sftp-settings.json
+sftp-config.json
+
+# Netbeans meta data #
+######################
+/nbproject/private/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.apdisk
+Icon?
+ehthumbs.db
+Thumbs.db

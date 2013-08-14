@@ -1,0 +1,17 @@
+# http://githowto.com/
+[core]
+        editor = joe
+        excludesfile = gitignore
+[alias]
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        type = cat-file -t
+        dump = cat-file -p
+        unstage = reset HEAD
+        us = reset HEAD
+        diffs = diff --ignore-space-change
+[color]
+        ui = true
