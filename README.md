@@ -14,3 +14,9 @@ put the following line in your .gitconfig
         excludesfile = ~/myhome/gitignore
     [include]
        path = myhome/gitconfig
+
+## Source bashrc
+
+put the following line in you .bashrc or maybe in .bash_profile if your using mac os
+
+    source ~/myhome/bashrc
