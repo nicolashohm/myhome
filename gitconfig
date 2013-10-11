@@ -1,6 +1,4 @@
 # http://githowto.com/
-[core]
-        editor = joe
 [alias]
         co = checkout
         ci = commit
