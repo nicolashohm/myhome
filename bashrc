@@ -15,3 +15,5 @@ alias la='ls -al'
 alias l='ll'
 alias lll='ll | less'
 alias lal='la | less'
+
+alias ps='ps faux'
