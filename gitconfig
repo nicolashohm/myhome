@@ -12,3 +12,5 @@
         diffs = diff --ignore-space-change
 [color]
         ui = true
+[push]
+        default = current
