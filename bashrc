@@ -15,3 +15,4 @@ alias lll='ll | less'
 alias lal='la | less'
 
 alias ps='ps fux'
+alias conf="./configure --prefix=$HOME"
