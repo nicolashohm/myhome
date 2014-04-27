@@ -10,6 +10,7 @@
         unstage = reset HEAD
         us = reset HEAD
         diffs = diff --ignore-space-change
+        alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 [color]
         ui = true
 [push]
