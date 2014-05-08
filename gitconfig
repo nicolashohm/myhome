@@ -9,8 +9,11 @@
         dump = cat-file -p
         unstage = reset HEAD
         us = reset HEAD
+        usp = reset HEAD -p
         diffs = diff --ignore-space-change
         alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+        dw = checkout --
+        dwp = checkout -p --
 [color]
         ui = true
 [push]
