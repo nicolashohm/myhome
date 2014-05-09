@@ -1,22 +1,22 @@
 # http://githowto.com/
 [alias]
-        co = checkout
-        ci = commit
-        st = status
-        br = branch
-        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-        type = cat-file -t
-        dump = cat-file -p
+        co      = checkout
+        ci      = commit
+        st      = status
+        br      = branch
+        hist    = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        type    = cat-file -t
+        dump    = cat-file -p
         unstage = reset HEAD
-        us = reset HEAD
-        usp = reset HEAD -p
-        d = diff
-        diffs = diff --ignore-space-change
-        ds = diff --ignore-space-change
-        alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
-        dwp = checkout -p --
-        a = add
-        ap = add -p
+        us      = reset HEAD
+        usp     = reset HEAD -p
+        d       = diff
+        diffs   = diff --ignore-space-change
+        ds      = diff --ignore-space-change
+        alias   = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+        dwp     = checkout -p --
+        a       = add
+        ap      = add -p
 [color]
         ui = true
 [push]
