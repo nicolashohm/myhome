@@ -10,7 +10,9 @@
         unstage = reset HEAD
         us = reset HEAD
         usp = reset HEAD -p
+        d = diff
         diffs = diff --ignore-space-change
+        ds = diff --ignore-space-change
         alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
         dwp = checkout -p --
         a = add
