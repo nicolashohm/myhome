@@ -7,6 +7,11 @@ if ! type joe 2>/dev/null 1>/dev/null; then
     alias joe='nano'
 fi
 
+# update
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+$DIR/update
+
 # aliases
 alias ll='ls -l'
 alias la='ls -al'
