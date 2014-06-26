@@ -18,6 +18,10 @@
         dwp     = checkout -p --
         a       = add
         ap      = add -p
+        ls-au   = ! git ls-files -v | grep '^[[:lower:]]'
+        pu      = push
+        pl      = pull
+        rb      = rebase
 [color]
         ui = true
 [push]
