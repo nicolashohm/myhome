@@ -10,7 +10,7 @@ fi
 # update
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-$DIR/update
+$DIR/update &
 
 # aliases
 alias ll='ls -l'
