@@ -23,6 +23,8 @@
         pl      = pull
         rb      = rebase
         lb      = ! git reflog | grep \"checkout: moving\" | head -n10 | tail -n +2 | awk '{print FNR \"\\t\" $8}' | tac
+        plf     = pull --ff-only
+        plrb    = pull --rebase
 [color]
         ui = true
 [push]
