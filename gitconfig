@@ -26,6 +26,7 @@
         plf     = pull --ff-only
         plrb    = pull --rebase
         sh      = stash
+        diff-last-merge = ! git diff `git log --merges -n1 --pretty=format:"%p" | awk '{ print $2 }'`
 [color]
         ui = true
 [push]
