@@ -4,8 +4,8 @@
         ci      = commit
         st      = status
         br      = branch
-        hist    = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-        shist   = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short -n5
+        hist    = log --pretty=format:\"%C(yellow)%h %C(green)%ad%Creset %s%C(red)%d %C(cyan)%an%Creset\" --graph --date=short
+        shist   = log --pretty=format:\"%C(yellow)%h %C(green)%ad%Creset %s%C(red)%d %C(cyan)%an%Creset\" --graph --date=short -n5
         type    = cat-file -t
         dump    = cat-file -p
         unstage = reset HEAD
