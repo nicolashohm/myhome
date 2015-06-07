@@ -8,6 +8,10 @@ sftp-config.json
 ######################
 /nbproject/private/
 
+# JetBrains meta data #
+#######################
+.idea/
+
 # OS generated files #
 ######################
 .DS_Store
