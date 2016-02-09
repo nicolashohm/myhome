@@ -27,7 +27,12 @@
         plrb    = pull --rebase
         sh      = stash
         diff-last-merge = ! git diff `git log --merges -n1 --pretty=format:"%p" | awk '{ print $2 }'`
+        unfuck  = !sh -c 'git merge --abort || git rebase --abort'
+        f       = fetch
+        sub     = submodule
 [color]
         ui = true
 [push]
         default = current
+[help]
+    autocorrect = 3
